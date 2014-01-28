@@ -10,3 +10,7 @@ First, make sure you can deploy to your Vagrant box with dokku (https://github.c
 
 	git remote add dokku dokku@dokku.me:lab-notebook
 	git push dokku master
+
+For extra goodies e.g. numpy, scipy. pandas:
+
+	pip install -r requirements-goodies.txt

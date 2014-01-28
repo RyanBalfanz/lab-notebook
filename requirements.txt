@@ -1,5 +1,2 @@
-Jinja2==2.7.2
-ipdb==0.8
-ipython==1.1.0
-pyzmq==14.0.1
-tornado==3.2
+-r requirements-base.txt
+-r requirements-goodies.txt
