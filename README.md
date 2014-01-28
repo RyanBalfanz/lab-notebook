@@ -1,4 +1,4 @@
 lab-notebook
 ============
 
-IPython notebook on dokku via Vagrant
+IPython notebook deployed to a Vagrant box via dokku
