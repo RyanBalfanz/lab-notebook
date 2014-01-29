@@ -9,7 +9,8 @@ DOKKU_IP = ENV["DOKKU_IP"] || "10.0.0.2"
 $script = <<SCRIPT
 echo I am provisioning...
 date > /etc/vagrant_provisioned_at
-# aptitude install -q -y gfortran libopenblas-dev liblapack-dev
+
+# http://thomassileo.com/blog/2012/11/19/setup-a-remote-ipython-notebook-server-with-numpyscipymaltplotlibpandas-in-a-virtualenv-on-ubuntu-server/
 aptitude install libatlas-dev libpng12-dev libfreetype6 libfreetype6-dev g++ libzmq-dev liblapack-dev gfortran python-dev build-essential python-qt4
 SCRIPT
 
